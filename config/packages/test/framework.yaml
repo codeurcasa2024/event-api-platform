@@ -1,0 +1,6 @@
+# config/packages/test/framework.yaml
+framework:
+    test: true                       # expose test.service_container
+    csrf_protection: false
+    session:
+        storage_factory_id: session.storage.factory.mock_file
